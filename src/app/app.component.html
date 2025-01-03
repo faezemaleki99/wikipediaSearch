@@ -1,3 +1,4 @@
+<h3 style="color: green;">Typing word for searching in wikipedia and see the result</h3>
 <app-search-bar (onSearch)="onSearchTerm($event)"></app-search-bar>
-<app-page-list></app-page-list>
+<app-page-list [posts]= 'posts'></app-page-list>
 <router-outlet />
